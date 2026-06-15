@@ -1,9 +1,13 @@
-import React from "react";
+
+
+import React from 'react'
 
 function Home() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
+    <div className=" bg-gray-50">
+     
+
+     <div className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
         <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
           <div
             className="flex items-center gap-2 cursor-pointer"
@@ -166,8 +170,9 @@ function Home() {
           </div>
         </div>
       </div>
+
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home

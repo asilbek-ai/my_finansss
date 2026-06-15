@@ -12,6 +12,7 @@ import Payments from './pages/Payments'
 import Gifts from './pages/Gifts'
 import Reports from './pages/Reports'
 import Profile from './pages/Profile'
+import Accounts from './pages/Accounts'
 import './App.css'
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path="/gifts" element={<Gifts />} />
           <Route path="/reports" element={<Reports />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path='accounts' element={<Accounts />} />
          </Routes>
     </div>
   )
